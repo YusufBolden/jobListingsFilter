@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Listings Filter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Happy+Monkey&family=League+Spartan:wght@100..900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#EFFAFA] font-sans text-sm text-[#5CA5A5]">
+    <!-- Header -->
+    <header
+      class="bg-[#5CA5A5] h-40 bg-no-repeat bg-cover bg-center"
+      style="background-image: url('./images/bg-header-mobile.svg')"
+    >
+      <div class="h-full sm:hidden"></div>
+    </header>
+
+    <!-- Filter Bar -->
+    <section
+      id="filter-bar"
+      class="bg-white rounded-md shadow-md p-4 mx-6 -mt-8 mb-10 relative z-10 hidden flex-wrap items-center justify-between sm:flex"
+    >
+      <div id="filter-tags" class="flex flex-wrap gap-4"></div>
+      <button
+        id="clear-filters"
+        class="text-[#5CA5A5] font-bold hover:underline"
+      >
+        Clear
+      </button>
+    </section>
+
+    <!-- Job Listings -->
+    <main id="job-listings" class="space-y-10 px-6 mb-10"></main>
+  </body>
+</html>

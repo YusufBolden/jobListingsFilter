@@ -30,22 +30,41 @@ jobListingsFilter/
 └── images/ (company logos and icons)
 ```
 
-
 ## 🚀 Getting Started
 
 To run the project locally:
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/YusufBolden/jobListingsFilter.git
    cd jobListingsFilter
+
+   ```
 
 2. Open index.html in your browser:
 
 ```
 open index.html
 ```
+
 No build steps or server required – this project runs fully client-side.
+
+## 📸 Screenshots
+
+### Desktop
+
+![Desktop Screenshot](./design/desktop-design.jpg)
+![Desktop Screenshot](./design/desktop-preview.jpg)
+
+### Mobile
+
+![Mobile Screenshot](./design/mobile-design.jpg)
+![Mobile Screenshot](./design/mobile-with-filters.jpg)
+
+### Active-States
+
+![Active-States Screenshot](./design/active-states.jpg)
 
 🤝 Acknowledgements
 Design by Frontend Mentor

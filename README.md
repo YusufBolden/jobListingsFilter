@@ -2,6 +2,11 @@
 
 A responsive job listings app built with **HTML**, **Tailwind CSS**, and **JavaScript** that allows users to filter job postings based on selected tags (e.g., role, level, languages, tools). Inspired by the [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt).
 
+## 🔗 Live Demo
+
+[Click here to view the live site](https://yusufbolden.github.io/jobListingsFilter/)
+
+
 ## 🔍 Features
 
 - ✅ Dynamic job listings rendered from `data.json`
